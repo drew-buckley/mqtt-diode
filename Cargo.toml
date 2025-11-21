@@ -1,0 +1,13 @@
+[package]
+name = "mqtt-diode"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+argh = "0.1.13"
+env_logger = "0.11.8"
+log = "0.4.28"
+rumqttc = "0.25.1"
+serde = "1.0.228"
+serde_json = "1.0.145"
